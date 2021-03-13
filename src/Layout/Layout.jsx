@@ -9,6 +9,8 @@ import {
 } from '@ant-design/icons';
 import S from './Layout.module.less'
 
+import ReactRoute from '../router/routerMap'
+
 const { Header, Sider, Content } = Layout;
 
 class SiderDemo extends React.Component {
@@ -55,7 +57,7 @@ class SiderDemo extends React.Component {
               minHeight: 280,
             }}
           >
-            Content
+            <ReactRoute />
           </Content>
         </Layout>
       </Layout>
